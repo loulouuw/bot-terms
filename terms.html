@@ -3,51 +3,127 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Terms of Service - [Nom de ton Bot]</title>
+    <title>Terms of Service - [inaBot]</title>
     <style>
+        /* Reset basique */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
+            background-color: #36393f; /* Fond Discord gris foncé */
+            color: #dcddde; /* Texte clair */
+            font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        main {
+            background-color: #2f3136; /* Un peu plus clair que le fond */
+            max-width: 700px;
+            width: 100%;
+            border-radius: 8px;
+            padding: 30px 40px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.6);
             line-height: 1.6;
-            color: #333;
-            background: #f9f9f9;
         }
-        h1, h2 {
-            color: #444;
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.3em;
+            color: #ffffff; /* Blanc pur pour le titre */
+            text-align: center;
+            font-weight: 600;
         }
+
+        h2 {
+            font-size: 1.4rem;
+            margin-top: 2em;
+            margin-bottom: 0.6em;
+            border-bottom: 2px solid #7289da; /* Bleu Discord */
+            padding-bottom: 6px;
+            color: #7289da;
+            font-weight: 600;
+        }
+
         p, li {
-            margin-bottom: 12px;
+            font-size: 1rem;
+            margin-bottom: 1em;
+            color: #dcddde;
+        }
+
+        ul {
+            padding-left: 1.2em;
+            margin-bottom: 1em;
+        }
+
+        a {
+            color: #00aff4; /* Bleu clair Discord */
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0096e5;
+            text-decoration: underline;
+        }
+
+        em {
+            color: #b9bbbe; /* Gris clair */
+            font-style: italic;
+        }
+
+        strong {
+            color: #ffffff;
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            body {
+                padding: 20px 10px;
+            }
+            main {
+                padding: 20px 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Terms of Service pour <strong>[inaBot]</strong></h1>
-    <p><em>Date de dernière mise à jour : 30 juin 2025</em></p>
+    <main>
+        <h1>Terms of Service pour <strong>[inaBot]</strong></h1>
+        <p><em>Date de dernière mise à jour : 30 juin 2025</em></p>
 
-    <p>Bienvenue sur <strong>[inaBot]</strong> ! En utilisant ce bot, tu acceptes les conditions suivantes :</p>
+        <p>Bienvenue sur <strong>[inaBot]</strong> ! En utilisant ce bot, tu acceptes les conditions suivantes :</p>
 
-    <h2>1. Usage autorisé</h2>
-    <p>Ce bot est fourni “tel quel”. Tu peux l’utiliser sur ton serveur Discord selon les fonctionnalités proposées. Toute utilisation illégale, abusive, ou nuisible est interdite.</p>
+        <h2>1. Usage autorisé</h2>
+        <p>Ce bot est fourni “tel quel”. Tu peux l’utiliser sur ton serveur Discord selon les fonctionnalités proposées. Toute utilisation illégale, abusive, ou nuisible est interdite.</p>
 
-    <h2>2. Propriété intellectuelle</h2>
-    <p>Le code source, les designs, et toutes les ressources associées appartiennent à <strong>[lnsi0o]</strong>. Tu ne peux pas redistribuer, revendre, ou modifier ce bot sans autorisation écrite.</p>
+        <h2>2. Propriété intellectuelle</h2>
+        <p>Le code source, les designs, et toutes les ressources associées appartiennent à <strong>[lnsi0o]</strong>. Tu ne peux pas redistribuer, revendre, ou modifier ce bot sans autorisation écrite.</p>
 
-    <h2>3. Limitation de responsabilité</h2>
-    <p><strong>[inaBot]</strong> ne garantit pas un fonctionnement parfait ou ininterrompu. En cas de bug ou perte de données, l’auteur ne pourra pas être tenu responsable.</p>
+        <h2>3. Limitation de responsabilité</h2>
+        <p><strong>[inaBot]</strong> ne garantit pas un fonctionnement parfait ou ininterrompu. En cas de bug ou perte de données, l’auteur ne pourra pas être tenu responsable.</p>
 
-    <h2>4. Confidentialité</h2>
-    <p>Aucune donnée personnelle n’est collectée par ce bot, sauf si explicitement indiqué. Les données générées sur ton serveur restent privées.</p>
+        <h2>4. Confidentialité</h2>
+        <p>Aucune donnée personnelle n’est collectée par ce bot, sauf si explicitement indiqué. Les données générées sur ton serveur restent privées.</p>
 
-    <h2>5. Support et mises à jour</h2>
-    <p>Tu peux demander de l’aide ou des mises à jour, mais elles ne sont pas garanties. Les modifications du bot pourront être effectuées à tout moment.</p>
+        <h2>5. Support et mises à jour</h2>
+        <p>Tu peux demander de l’aide ou des mises à jour, mais elles ne sont pas garanties. Les modifications du bot pourront être effectuées à tout moment.</p>
 
-    <h2>6. Résiliation</h2>
-    <p>En cas de non-respect des présentes conditions, l’accès au bot pourra être suspendu ou résilié sans préavis.</p>
+        <h2>6. Résiliation</h2>
+        <p>En cas de non-respect des présentes conditions, l’accès au bot pourra être suspendu ou résilié sans préavis.</p>
 
-    <p>Si tu as des questions, contacte-moi à <a href="mailto:acclomens@gmail.com">ton.email@example.com</a>.</p>
+        <p>Si tu as des questions, contacte-moi à <a href="mailto:acclomens@gmail.com">acclomens@gmail.com</a>.</p>
 
-    <p><strong>Merci d’utiliser <em>[inaBot]</em> !</strong></p>
+        <p><strong>Merci d’utiliser <em>[inaBot]</em> !</strong></p>
+    </main>
 </body>
 </html>
